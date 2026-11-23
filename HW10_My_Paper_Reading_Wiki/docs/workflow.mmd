@@ -1,0 +1,17 @@
+flowchart TD
+ A[先討論主題與教學目標] --> B[取得私有 PDF 並驗證 DOI/SHA256]
+ B --> C{來源是否完整可信？}
+ C -->|否：Loop 1| B
+ C -->|是| D[Ingest 來源頁 + 概念頁 + 雙向連結]
+ D --> E[重建 index.md + 更新 log.md]
+ E --> F{Lint: 連結/索引/來源追溯正確？}
+ F -->|否：Loop 2| D
+ F -->|是| G[LLM 先讀 index 再 Query Wiki]
+ G --> H[綜合分析並寫回 Wiki synthesis]
+ H --> I{引用/推論/教學大綱可驗證？}
+ I -->|否：Loop 3a| G
+ I -->|是| J[更新 slide-plan.json → 生成 HTML]
+ J --> K{語法/引用/瀏覽器/手機測試通過？}
+ K -->|內容或來源錯：Loop 3b| D
+ K -->|UI/互動錯：Loop 3c| J
+ K -->|是| L[紀錄測試與反思 → 發布 GitHub Pages]

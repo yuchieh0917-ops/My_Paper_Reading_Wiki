@@ -1,0 +1,16 @@
+{
+  "name": "My Paper Reading Wiki",
+  "dataset": "HW10 user-provided papers.zip",
+  "ingestedAt": "2026-11-23",
+  "sourceCount": 10,
+  "allSourcesParsed": true,
+  "totalPages": 122,
+  "totalExtractedChars": 635171,
+  "method": "PyMuPDF 從 10 篇使用者提供 PDF 擷取文字；讀取摘要及研究段落；人工核對中文改寫、概念標籤、PDF 頁碼與 DOI；整理成 wiki-sources.json。",
+  "privatePDFsIncluded": false,
+  "publicData": [
+    "wiki-sources.json",
+    "wiki-concepts.json"
+  ],
+  "scope": "本機來源 PDF 供整理，未收錄原文全文於 GitHub；每筆來源保留 SHA256、頁數、擷取字數與 DOI；不宣稱有線上模型即時生成能力。"
+}

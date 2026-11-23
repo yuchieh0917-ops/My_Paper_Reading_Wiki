@@ -1,0 +1,194 @@
+[
+  {
+    "id": "question",
+    "name": "研究問題（Research Question）",
+    "category": "閱讀流程",
+    "desc": "研究要回答的具體疑問，是判斷方法與結果有沒有對題的起點。",
+    "rule": "先找研究缺口與假設，再看方法是否真的能回答。",
+    "related": [
+      "study-design",
+      "operationalization",
+      "limitation"
+    ],
+    "sources": [
+      "S01",
+      "S02",
+      "S04",
+      "S05"
+    ]
+  },
+  {
+    "id": "study-design",
+    "name": "研究設計（Study Design）",
+    "category": "研究方法",
+    "desc": "橫斷、受試者內比較、重複量數、隨機分組等設計，會決定能支持的結論強度。",
+    "rule": "看到有分組或顯著差異時，先問「是否隨機分派？是否操弄變項？」",
+    "related": [
+      "question",
+      "ecological-validity",
+      "limitation",
+      "statistics"
+    ],
+    "sources": [
+      "S01",
+      "S02",
+      "S03",
+      "S05",
+      "S07",
+      "S09"
+    ]
+  },
+  {
+    "id": "operationalization",
+    "name": "操作型定義（Operationalization）",
+    "category": "研究方法",
+    "desc": "抽象概念如何以可觀察指標測量。例如壓力可以是自陳時間壓力、DRES 評估或生理反應。",
+    "rule": "同稱「壓力」並不表示指標可以直接合併。",
+    "related": [
+      "hrv",
+      "dres",
+      "statistics"
+    ],
+    "sources": [
+      "S05",
+      "S06",
+      "S08",
+      "S09",
+      "S10"
+    ]
+  },
+  {
+    "id": "hrv",
+    "name": "心率變異性（HRV）",
+    "category": "心理生理",
+    "desc": "相鄰心跳間隔的變動程度。RMSSD 與高頻功率等是不同指標；需注意量測長度、呼吸與情境。",
+    "rule": "不要將 HRV 當成單一的壓力分數，也不要預設「壓力一定使 HRV 降低」。",
+    "related": [
+      "stress-reactivity",
+      "operationalization",
+      "limitation"
+    ],
+    "sources": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S06",
+      "S07",
+      "S08",
+      "S09"
+    ]
+  },
+  {
+    "id": "dres",
+    "name": "需求—資源評估（DRES）",
+    "category": "心理評估",
+    "desc": "Demand Resource Evaluation Score 反映個人評估情境需求與自身資源的差異，可協助理解挑戰與威脅的主觀評估。",
+    "rule": "DRES 是評估分數，不等同於心率或 HRV。",
+    "related": [
+      "stress-reactivity",
+      "operationalization",
+      "ecological-validity"
+    ],
+    "sources": [
+      "S04",
+      "S05",
+      "S10"
+    ]
+  },
+  {
+    "id": "stress-reactivity",
+    "name": "壓力反應（Stress Reactivity）",
+    "category": "心理生理",
+    "desc": "面臨壓力時生理或心理指標相對於基線的變化；也要區分恢復速度與反覆暴露的反應。",
+    "rule": "同時查看基線、任務期與恢復期，不能只抓任一時間點。",
+    "related": [
+      "hrv",
+      "dres",
+      "ecological-validity",
+      "limitation"
+    ],
+    "sources": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S08",
+      "S09"
+    ]
+  },
+  {
+    "id": "ecological-validity",
+    "name": "生態效度（Ecological Validity）",
+    "category": "研究方法",
+    "desc": "研究情境與日常現實有多接近。實驗室與真實情境各有控制力及外推性的優缺點。",
+    "rule": "看情境與受試者是否接近想應用的族群。",
+    "related": [
+      "study-design",
+      "stress-reactivity",
+      "limitation"
+    ],
+    "sources": [
+      "S02",
+      "S04"
+    ]
+  },
+  {
+    "id": "statistics",
+    "name": "統計顯著與解讀（Statistical Inference）",
+    "category": "結果解讀",
+    "desc": "統計顯著不等於效果大、實務有意義或存在因果；未達顯著也不是「完全沒有差異」。",
+    "rule": "檢查樣本量、效果量、比較次數、信賴區間、模型評估方法。",
+    "related": [
+      "study-design",
+      "machine-learning",
+      "limitation"
+    ],
+    "sources": [
+      "S03",
+      "S06",
+      "S07",
+      "S08",
+      "S10"
+    ]
+  },
+  {
+    "id": "machine-learning",
+    "name": "模型預測（Prediction）",
+    "category": "結果解讀",
+    "desc": "利用資料預測未知案例，不等於診斷或因果機制。要看交叉驗證、類別比例與外部效度。",
+    "rule": "分類準確率不能直接解讀成臨床診斷能力。",
+    "related": [
+      "statistics",
+      "operationalization",
+      "limitation"
+    ],
+    "sources": [
+      "S06"
+    ]
+  },
+  {
+    "id": "limitation",
+    "name": "研究限制與因果（Limitations & Causality）",
+    "category": "批判閱讀",
+    "desc": "樣本、設計、混淆變項、情境與測量誤差都會限制結論。橫斷相關通常不足以證明因果。",
+    "rule": "寫出「研究發現了什麼」與「不能據此說什麼」兩句話。",
+    "related": [
+      "study-design",
+      "statistics",
+      "question"
+    ],
+    "sources": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10"
+    ]
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "S01",
+    "file": "01_2022_Schiweck_Repeated_stress_MDD.pdf",
+    "year": 2022,
+    "author": "Schiweck et al.",
+    "title": "Exhausted Heart Rate Responses to Repeated Psychological Stress in Women With Major Depressive Disorder",
+    "doi": "10.3389/fpsyt.2022.869608",
+    "area": "重複壓力與憂鬱",
+    "design": "病例對照、重複實驗室壓力",
+    "sample": "59 名女性（憂鬱症住院者 30、對照者 29）",
+    "variables": "兩次心算壓力、心率（HR）、RMSSD、主觀壓力",
+    "finding": "兩組皆有首次壓力反應；憂鬱症組在第二次壓力暴露時未呈現相同的心率反應，主觀壓力也較難恢復到基線。",
+    "caution": "僅研究女性、樣本小；研究者提出耗竭／異常負荷作為可能解釋，不能當成已證實的機制。",
+    "concepts": [
+      "hrv",
+      "stress-reactivity",
+      "study-design",
+      "limitation",
+      "question"
+    ],
+    "page": 1,
+    "pages": 12,
+    "sha256": "b161717974e86f8936551c5439f649f52e3359b99c1ecba187cc777b9db4596b",
+    "extractedChars": 69965,
+    "source": "https://doi.org/10.3389/fpsyt.2022.869608",
+    "evidence": {
+      "pdfPage": 1,
+      "section": "Abstract / 研究摘要",
+      "note": "以 PDF 所示摘要的研究目的、方法、結果為依據，中文為改寫；PDF 頁碼由封面起算。"
+    },
+    "ingested": true
+  },
+  {
+    "id": "S02",
+    "file": "02_2024_Schmid_Everyday_time_pressure_HRV.pdf",
+    "year": 2024,
+    "author": "Schmid et al.",
+    "title": "Individual differences in parasympathetic nervous system reactivity in response to everyday stress are associated with momentary emotional exhaustion",
+    "doi": "10.1038/s41598-024-74873-9",
+    "area": "日常時間壓力",
+    "design": "生態瞬時評估（EMA）、多層次模型",
+    "sample": "394 名成年人、4,009 個日常觀察情境",
+    "variables": "知覺時間壓力、HRV、當下情緒耗竭",
+    "finding": "日常時間壓力增加時，HRV 傾向降低；HRV 對壓力反應較明顯的個體，也較常出現情緒耗竭。",
+    "caution": "觀察性資料具有生態效度，但關聯不代表壓力造成個體長期耗竭的因果證明。",
+    "concepts": [
+      "hrv",
+      "stress-reactivity",
+      "ecological-validity",
+      "study-design",
+      "limitation",
+      "question"
+    ],
+    "page": 1,
+    "pages": 10,
+    "sha256": "1ed99bd388d1b838e108710518b01245772e966a25145aaf12f7d30a2efbf0c0",
+    "extractedChars": 61846,
+    "source": "https://doi.org/10.1038/s41598-024-74873-9",
+    "evidence": {
+      "pdfPage": 1,
+      "section": "Abstract / 研究摘要",
+      "note": "以 PDF 所示摘要的研究目的、方法、結果為依據，中文為改寫；PDF 頁碼由封面起算。"
+    },
+    "ingested": true
+  },
+  {
+    "id": "S03",
+    "file": "03_2023_Andorfer_DRES_HRV_self_compassion.pdf",
+    "year": 2023,
+    "author": "Andorfer et al.",
+    "title": "Psychophysiological stress response after a 6-week Mindful Self-Compassion training in psychiatric rehabilitation inpatients: a randomized post-test only study",
+    "doi": "10.3389/fpsyt.2023.1098122",
+    "area": "心理介入與壓力",
+    "design": "隨機分組、僅後測設計",
+    "sample": "50 名精神科復健住院者（MSC 25、PMR 25）",
+    "variables": "自我慈悲訓練、漸進式肌肉放鬆、壓力作業、HRV 與其他心理生理指標",
+    "finding": "校正多重檢定後，MSC 與 PMR 兩組在壓力反應和心理測量指標上的差異未達顯著。",
+    "caution": "「未達顯著」不代表兩種介入完全等效；小樣本與僅後測設計需要審慎解讀。",
+    "concepts": [
+      "hrv",
+      "stress-reactivity",
+      "study-design",
+      "statistics",
+      "limitation"
+    ],
+    "page": 1,
+    "pages": 12,
+    "sha256": "867d27359ccb2396044e72b4f1f2bdb4cbc994690d4aa5457be756daf98ac9a8",
+    "extractedChars": 76394,
+    "source": "https://doi.org/10.3389/fpsyt.2023.1098122",
+    "evidence": {
+      "pdfPage": 1,
+      "section": "Abstract / 研究摘要",
+      "note": "以 PDF 所示摘要的研究目的、方法、結果為依據，中文為改寫；PDF 頁碼由封面起算。"
+    },
+    "ingested": true
+  },
+  {
+    "id": "S04",
+    "file": "04_2023_Peek_DRES_HRV_clinical_emergencies.pdf",
+    "year": 2023,
+    "author": "Peek et al.",
+    "title": "Psychophysiological fidelity: A comparative study of stress responses to real and simulated clinical emergencies",
+    "doi": "10.1111/medu.15155",
+    "area": "模擬與真實臨床壓力",
+    "design": "受試者內觀察比較",
+    "sample": "12 名新生兒臨床訓練人員",
+    "variables": "模擬／真實緊急事件、威脅評估（DRES）、狀態焦慮、高頻 HRV",
+    "finding": "模擬情境引發較多威脅評估和較高焦慮；兩類事件的高頻 HRV 都比基線低，但模擬事件後恢復更接近基線。",
+    "caution": "樣本極少且情境差異難完全控制；不能視模擬訓練與真實情境反應為等價。",
+    "concepts": [
+      "dres",
+      "hrv",
+      "stress-reactivity",
+      "ecological-validity",
+      "limitation",
+      "question"
+    ],
+    "page": 2,
+    "pages": 10,
+    "sha256": "61a6efcf85f7b56a41c7795f60c83484c494d3f5e0b4813040d3aa3d4b4db7f7",
+    "extractedChars": 47407,
+    "source": "https://doi.org/10.1111/medu.15155",
+    "evidence": {
+      "pdfPage": 2,
+      "section": "Abstract / 研究摘要",
+      "note": "以 PDF 所示摘要的研究目的、方法、結果為依據，中文為改寫；PDF 頁碼由封面起算。"
+    },
+    "ingested": true
+  },
+  {
+    "id": "S05",
+    "file": "05_2025_Rey_Dynamic_DRES_music_students.pdf",
+    "year": 2025,
+    "author": "Rey et al.",
+    "title": "Demand-resource evaluations and post-performance thoughts in classical music students: how they are linked and influenced by music performance anxiety, audience, and time",
+    "doi": "10.3389/fpsyg.2025.1579759",
+    "area": "音樂演出焦慮",
+    "design": "私人與公開表演情境比較",
+    "sample": "121 名古典音樂學生",
+    "variables": "需求—資源評估（DRES）、表演焦慮、觀眾、表演前後的認知",
+    "finding": "DRES 隨表演焦慮增加而降低，在公開情境低於私人情境，且從表演前到表演中下降。",
+    "caution": "DRES 測的是主觀需求與資源評估，不是 HRV；這篇不宜用來證明 HRV 必然降低。",
+    "concepts": [
+      "dres",
+      "operationalization",
+      "study-design",
+      "limitation",
+      "question"
+    ],
+    "page": 1,
+    "pages": 14,
+    "sha256": "5cbd06ad4c856de8657062c9b91034e8f0ea714c43dc70745fc39de205f52c1c",
+    "extractedChars": 91008,
+    "source": "https://doi.org/10.3389/fpsyg.2025.1579759",
+    "evidence": {
+      "pdfPage": 1,
+      "section": "Abstract / 研究摘要",
+      "note": "以 PDF 所示摘要的研究目的、方法、結果為依據，中文為改寫；PDF 頁碼由封面起算。"
+    },
+    "ingested": true
+  },
+  {
+    "id": "S06",
+    "file": "06_2024_Li_College_depression_exercise_HRV.pdf",
+    "year": 2024,
+    "author": "Li et al.",
+    "title": "Multilayer Perceptron-Based Wearable Exercise-Related Heart Rate Variability Predicts Anxiety and Depression in College Students",
+    "doi": "10.3390/s24134203",
+    "area": "運動、HRV 與預測模型",
+    "design": "HRV 資料搭配多層感知器（MLP）與五折交叉驗證",
+    "sample": "845 名 18–22 歲大學生",
+    "variables": "運動及恢復 HRV、SAS 焦慮與 PHQ-9 憂鬱分數、預測準確度",
+    "finding": "模型預測焦慮／憂鬱等級呈現不同程度的分類準確率，論文指出預測連續量表分數仍有改進空間。",
+    "caution": "分類準確率與臨床確診不同；研究情境與樣本限制模型外推。",
+    "concepts": [
+      "hrv",
+      "machine-learning",
+      "statistics",
+      "operationalization",
+      "limitation"
+    ],
+    "page": 1,
+    "pages": 13,
+    "sha256": "5b7d97d6350a9df1183ad8f88e2deba018d553d49e50101a6f0257baabb3a609",
+    "extractedChars": 40494,
+    "source": "https://doi.org/10.3390/s24134203",
+    "evidence": {
+      "pdfPage": 1,
+      "section": "Abstract / 研究摘要",
+      "note": "以 PDF 所示摘要的研究目的、方法、結果為依據，中文為改寫；PDF 頁碼由封面起算。"
+    },
+    "ingested": true
+  },
+  {
+    "id": "S07",
+    "file": "07_2022_Guo_Medical_students_sleep_depression_HRV.pdf",
+    "year": 2022,
+    "author": "Guo et al.",
+    "title": "Using 24-h Heart Rate Variability to Investigate the Sleep Quality and Depression Symptoms of Medical Students",
+    "doi": "10.3389/fpsyt.2021.781673",
+    "area": "睡眠、憂鬱與 HRV",
+    "design": "橫斷研究、24 小時心電監測與量表",
+    "sample": "74 名醫學生",
+    "variables": "PSQI 睡眠品質、BDI-II 憂鬱症狀、全天 HRV",
+    "finding": "整體 PSQI 與 HRV、憂鬱分數與 HRV 的關聯未達顯著；但睡眠干擾子向度與部分日夜 HRV 指標有負相關。",
+    "caution": "不可只挑選顯著的子向度，忽略整體關聯未達顯著；橫斷設計不可推論因果。",
+    "concepts": [
+      "hrv",
+      "statistics",
+      "study-design",
+      "limitation"
+    ],
+    "page": 1,
+    "pages": 10,
+    "sha256": "6facb84fe1aa71b927ea4006d84cd222b47026c1251dce27c96dc3803a7e9110",
+    "extractedChars": 54245,
+    "source": "https://doi.org/10.3389/fpsyt.2021.781673",
+    "evidence": {
+      "pdfPage": 1,
+      "section": "Abstract / 研究摘要",
+      "note": "以 PDF 所示摘要的研究目的、方法、結果為依據，中文為改寫；PDF 頁碼由封面起算。"
+    },
+    "ingested": true
+  },
+  {
+    "id": "S08",
+    "file": "08_2026_Zekioglu_Student_athletes_cognitive_recovery.pdf",
+    "year": 2026,
+    "author": "Zekioğlu et al.",
+    "title": "Stress Responses and Recovery in Student Athletes: Heart Rate Variability and Skin Conductance Patterns Across Cognitive Challenges: A Pilot Study",
+    "doi": "10.3390/bs16060912",
+    "area": "學生運動員的認知壓力",
+    "design": "重複量數實驗、先導研究",
+    "sample": "52 名大學運動員",
+    "variables": "Stroop、心算、HR、RMSSD、高頻 HRV、皮膚電傳導（SCL）",
+    "finding": "壓力作業時 HR 與 SCL 升高；RMSSD 與高頻 HRV 也升高，與「壓力下 HRV 一律下降」的簡化預期不同。",
+    "caution": "為先導研究，樣本與短時間量測有限；HRV 方向須結合情境、指標及其他生理指標判讀。",
+    "concepts": [
+      "hrv",
+      "stress-reactivity",
+      "operationalization",
+      "statistics",
+      "limitation"
+    ],
+    "page": 1,
+    "pages": 15,
+    "sha256": "9e1c6f8d214b457af0a7a122ab12fd9b1021e190543f035be4cfc6dbfa63dea6",
+    "extractedChars": 49197,
+    "source": "https://doi.org/10.3390/bs16060912",
+    "evidence": {
+      "pdfPage": 1,
+      "section": "Abstract / 研究摘要",
+      "note": "以 PDF 所示摘要的研究目的、方法、結果為依據，中文為改寫；PDF 頁碼由封面起算。"
+    },
+    "ingested": true
+  },
+  {
+    "id": "S09",
+    "file": "09_2022_Lutin_Depression_chronic_stress_MIST.pdf",
+    "year": 2022,
+    "author": "Lutin et al.",
+    "title": "The cumulative effect of chronic stress and depressive symptoms affects heart rate in a working population",
+    "doi": "10.3389/fpsyt.2022.1022298",
+    "area": "慢性壓力與憂鬱症狀",
+    "design": "工作人口觀察資料與一部分受試者的壓力任務",
+    "sample": "完整心電與問卷資料 516 人；壓力作業子樣本 194 人",
+    "variables": "慢性壓力、憂鬱症狀、心率晝夜節律、HR 反應、夜間 RMSSD",
+    "finding": "極高慢性壓力合併憂鬱症狀時，心率晝夜節律較平坦；壓力反應減弱較與憂鬱症狀而非慢性壓力單獨相關。夜間 RMSSD 未顯示相同關聯。",
+    "caution": "不同心臟指標不能互換；觀察性分組與子樣本限制因果及外推。",
+    "concepts": [
+      "hrv",
+      "stress-reactivity",
+      "operationalization",
+      "study-design",
+      "limitation"
+    ],
+    "page": 1,
+    "pages": 14,
+    "sha256": "62ebac97774613d3890fdee3444376ac14b62136b3dfd28f28fb7fcd2e14d10a",
+    "extractedChars": 74213,
+    "source": "https://doi.org/10.3389/fpsyt.2022.1022298",
+    "evidence": {
+      "pdfPage": 1,
+      "section": "Abstract / 研究摘要",
+      "note": "以 PDF 所示摘要的研究目的、方法、結果為依據，中文為改寫；PDF 頁碼由封面起算。"
+    },
+    "ingested": true
+  },
+  {
+    "id": "S10",
+    "file": "10_2023_Trotter_DRES_esport_performance.pdf",
+    "year": 2023,
+    "author": "Trotter et al.",
+    "title": "Self-regulation, stress appraisal, and esport action performance",
+    "doi": "10.3389/fpsyg.2023.1265778",
+    "area": "電競的壓力評估與表現",
+    "design": "電競選手實驗與跨樣本比較",
+    "sample": "53 名電競選手；另與 993 人的國際樣本比較",
+    "variables": "自我調節、挑戰／威脅評估、射擊準確度與完成時間",
+    "finding": "較高自我調節與較偏向挑戰的評估、較好的操作表現呈關聯；作者亦報告自我調節的中介分析。",
+    "caution": "自我調節與表現的關聯不等於訓練自我調節就必然改善績效；這篇未測量 HRV 作為主要變項。",
+    "concepts": [
+      "dres",
+      "statistics",
+      "operationalization",
+      "limitation"
+    ],
+    "page": 1,
+    "pages": 12,
+    "sha256": "e70cdc9f1b4f55bde1741e07c4323ef6662a3f258a7cc29354f10362d4e8b114",
+    "extractedChars": 70402,
+    "source": "https://doi.org/10.3389/fpsyg.2023.1265778",
+    "evidence": {
+      "pdfPage": 1,
+      "section": "Abstract / 研究摘要",
+      "note": "以 PDF 所示摘要的研究目的、方法、結果為依據，中文為改寫；PDF 頁碼由封面起算。"
+    },
+    "ingested": true
+  }
+]

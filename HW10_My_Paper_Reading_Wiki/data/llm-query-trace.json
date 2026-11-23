@@ -1,0 +1,63 @@
+{
+  "traceId": "Q20261123-HRV-CONTEXT",
+  "date": "2026-11-23",
+  "localTimezone": "Asia/Taipei",
+  "executor": "ChatGPT（LLM）基於本專案 Wiki 頁面執行內容綜合；Python 只輔助檔案檢索和驗證",
+  "question": "為什麼日常時間壓力研究與認知挑戰研究的 HRV 結果方向不同？這能教初學者什麼？",
+  "readOrder": [
+    "wiki/index.md",
+    "wiki/sources/S02.md",
+    "wiki/sources/S08.md",
+    "wiki/concepts/hrv.md",
+    "wiki/concepts/stress-reactivity.md",
+    "wiki/concepts/operationalization.md",
+    "wiki/concepts/limitation.md"
+  ],
+  "wikiAnswer": "S02 的 EMA 日常時間壓力研究呈 HRV 傾向下降；S08 的學生運動員認知挑戰先導研究呈 RMSSD／高頻 HRV 升高。由於情境、量測指標、時間尺度與研究對象不同，不能直接宣稱兩者互相推翻或已識別生理機制。",
+  "sources": [
+    "S02",
+    "S08"
+  ],
+  "outputs": [
+    "wiki/queries/2026-11-23-hrv-reading.md",
+    "wiki/syntheses/hrv-across-contexts.md",
+    "data/slide-plan.json",
+    "slides.html"
+  ],
+  "slideChanges": [
+    {
+      "zeroBasedIndex": 6,
+      "title": "HRV 是什麼？為什麼要小心解讀？",
+      "refs": [
+        "S02",
+        "S08"
+      ],
+      "wikiPaths": [
+        "wiki/sources/S02.md",
+        "wiki/sources/S08.md",
+        "wiki/concepts/hrv.md"
+      ],
+      "why": "加入跨情境比較以及先檢查 Methods 的教學提醒"
+    },
+    {
+      "zeroBasedIndex": 9,
+      "title": "研究結果不一樣，一定有人錯嗎？",
+      "refs": [
+        "S02",
+        "S08"
+      ],
+      "wikiPaths": [
+        "wiki/sources/S02.md",
+        "wiki/sources/S08.md",
+        "wiki/concepts/operationalization.md",
+        "wiki/concepts/limitation.md"
+      ],
+      "why": "加入時間尺度、量測指標、研究對象差異與不應下過度結論"
+    }
+  ],
+  "limitations": [
+    "引用與檔案結構通過不保證科學正確，使用者應與原始 PDF 核對",
+    "此次 Query 基於既有 Wiki，不是在這次操作中重新 ingest 所有 PDF",
+    "GitHub Pages 尚未實際部署"
+  ]
+}
